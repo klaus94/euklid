@@ -45,12 +45,13 @@ def main():
 		R.append(a % b)
 	
 	
-	print ggT(a, b)
-
+	print "ggT(%i, %i) = %i."%(a, b, ggT(a, b))
+	'''
 	print A
 	print B
 	print Q
 	print R
+	'''
 
 
 if __name__ == '__main__':
